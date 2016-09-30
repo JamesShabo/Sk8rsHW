@@ -1,12 +1,12 @@
 body{
 	background-image: url("../images/bg.jpg");
-	background-size:cover;
+	background-size:auto;
 
 }
 
-#container {
-  width:1000px;
-  margin:auto;
+
+#sub {
+
 }
 
 .social {
@@ -20,14 +20,16 @@ body{
   height:40px;
   color:white;
   text-align:center;
-  background:blue;
+  margin:5px;
+  border-bottom:5px solid rgba(132,131,129,.5);
 }
 
 .menu {
   display:flex;
   justify-content:space-between;
-  width:100%;
+  widows: 800px;
   padding-left:0;
+  border-bottom:5px solid rgba(132,131,129,.5);
 }
 
 .menu li{
@@ -36,6 +38,8 @@ body{
 	list-style: none;
 	margin-bottom: 20px;
 	color: black;
+  margin-left: 50px;
+  margin-right: 10px;
 }
 
 .sub{
@@ -46,17 +50,41 @@ body{
 #top-image{
 	background-image: url("../images/top-image.png");
 	background-position: -100px -155px;
-  height:300px;
+  height:350px;
+  border-width: 5px;
 }
 
-div, footer {
+.menu{
+  font-weight: bold;
+  float:right;
+  margin-right: 220px;
+  position: center;
+}
+
+
+
+.leftnewsbox
+
+
+div, header {
 	border:5px solid #fff;
-
-
+  height: 500px;
+  width: 800px;
+  float:right;
+  margin-right: 220px;
 }
+
+div.sub{
+  height:100px;
+}
+
 
 img{
 	height:300px;
 	
-	margin-bottom: 400px
 }
+
+i{
+  color:grey;
+}
+
