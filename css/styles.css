@@ -5,9 +5,7 @@ body{
 }
 
 
-#sub {
 
-}
 
 .social {
   list-style:none;
@@ -22,51 +20,61 @@ body{
   text-align:center;
   margin:5px;
   border-bottom:5px solid rgba(132,131,129,.5);
+  padding:15px;
 }
 
 .menu {
   display:flex;
   justify-content:space-between;
-  widows: 800px;
-  padding-left:0;
-  border-bottom:5px solid rgba(132,131,129,.5);
+  padding-left:0px;
+  padding-right: 5px;
 }
 
 .menu li{
-  padding:10px;
+  padding:5px;
 	background-color: red;
 	list-style: none;
 	margin-bottom: 20px;
 	color: black;
   margin-left: 50px;
   margin-right: 10px;
+  border-bottom:5px solid rgba(132,131,129,.5);
+  text-align: center;
 }
 
 .sub{
 	color:red;
 	border-bottom: 1px grey;
+  margin-right: 245px;
 }
 
 #top-image{
-	background-image: url("../images/top-image.png");
-	background-position: -100px -155px;
-  height:350px;
+  background-image: url("../images/top-image.png");
+	background-position: 50px -80px;
+  background-size: 1000px 710px;
+  height: 300px;
+  width: 800px;
   border-width: 5px;
+  float:left;
+  margin-left: 225px;
 }
 
-.menu{
-  font-weight: bold;
+
+
+#container{
+  height: 120px;
+  width: 800px;
   float:right;
-  margin-right: 220px;
-  position: center;
+  margin-right: 245px;
+}
+
+header{
+  height: 250px;
+  width: 400px;
 }
 
 
-
-.leftnewsbox
-
-
-div, header {
+div{
 	border:5px solid #fff;
   height: 500px;
   width: 800px;
@@ -80,11 +88,36 @@ div.sub{
 
 
 img{
-	height:300px;
+	height: 250px;
+  width: 400px;
+  margin-left: 10px;
+  margin-top: 20px;
 	
 }
+
+#RodneyMullen{
+
+ border:5px solid #fff;
+  height: 500px;
+  width: 800px;
+  float:right;
+  margin-right: 220px;
+}
+
 
 i{
   color:grey;
 }
+ 
+ #newblocks,main,h3,h2,h1,p {
+    height: 330px;
+    width: 266px;
+    float: left;
+    margin-left: 100px;
+    color:red;
+    background-color: white;
+    display:flex;
+    justify-content: space-between;
+    font-family: sans-serif;
 
+}
