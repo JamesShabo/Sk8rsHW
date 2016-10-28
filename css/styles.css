@@ -1,17 +1,12 @@
 html{
-  width:2000px;
-  height:auto;
   box-sizing:border-box;
 }
 
 #mainContainer{
-  width:1500px;
-  height:1000px;
   margin:auto;
 }
 
 #overlay{
-  width:2000px;
   height:2000px;
   position: absolute;
   background:rgba(0, 0, 0, .7);
@@ -23,10 +18,15 @@ html{
 
 }
 
-
+.subs{
+  float:left;
+  margin-left:790px;
+  margin-top: 30px;
+  color:white;
+}
 
 .button{
-  color:red;
+  color: #C4515A;
   background-color: white;
   border:0px;
   margin-left: 70px;
@@ -39,6 +39,9 @@ body{
   background-size:auto;
 }
 
+h6{
+  color:#C0C0C0;
+}
 
 ul{
   padding:0;
@@ -49,14 +52,27 @@ li{
   display:inline;
   }
 
+li > .fa-facebook{
+  color:#7582B2
+}
 
+li > .fa-rss{
+  color:#D7AD69;
+}
+
+li > .fa-twitter {
+  color:#90A8D4;
+}
+
+li > .fa-youtube {
+  color:#C56661;
+}
 
 i{
   width: 55px;
   height:45px;
   text-align: center;
   padding-top: 15px;
-  
 }
 
 p{
@@ -66,51 +82,53 @@ p{
   
 button{
   border:0px;
-  background-color: #B4292E;
+  color:white;
+  background-color: none;
   float: left;
   margin-right: 100px;
 }
 
 
 div.newsboxes{
-    width: 1100px;
-    height:310px;
     margin-top: 30px;
-    margin-left: 155px;
+    margin-left: 160px;
+    margin-bottom: 15px;
 }
 
 div.newsBox1{
-  width: 300px;
+  width: 315px;
   height:300px;
   border:5px solid white;
-  float:right;
-  margin-right: 118px;
   display:inline;
+  float:left;
+  margin-right: 10px;
   background-color: white;
   font-family: sans-serif;
+  color:#363731;
 }
 
 div.newsBox2{
-  width: 300px;
+  width: 315px;
   height:300px;
   margin-right: 10px;
   border:5px solid white;
-  float:right;
   display:inline;
+  float:left;
   background-color: white;
   font-family: sans-serif;
+  color:#363731;
 }
 
 div.newsBox3{
-  width: 300px;
+  width: 315px;
   height:300px;
   margin-right: 10px;
   border:5px solid white;
-  float:right;
+  float:left;
   display:inline;
   background-color: white;
   font-family: sans-serif;
-  color:grey;
+  color:#363731;
 }
 
 
@@ -133,7 +151,7 @@ div.newsBox3{
 
 .sub{
   float:right;
-  margin-right: 333px;
+  margin-right: 100px;
 }
 
 #container{
@@ -143,7 +161,7 @@ div.newsBox3{
 }
 
 #container > ul{
-  margin-left: 470px;
+ margin-left:180px;
  
  }
 
@@ -151,8 +169,8 @@ div.newsBox3{
   text-align: center;
   background-color: #B4292E;
   color:white;
-  font-size: 16px;
-  padding:15px;
+  font-size: 18px;
+  padding:3px 35px;
   font-family: sans-serif;
   font-weight: lighter;
   border-bottom: 5px solid rgba(132,131,129,0.75);
@@ -169,8 +187,8 @@ div.newsBox3{
 }
 
  #gallery {
-  width: 1020px;
   height: 255px;
+  width:1000px;
   clear: both;
   margin-left: 170px;
   margin-top: 50px;
@@ -213,11 +231,8 @@ input[type=submit] {
   text-transform: uppercase;
 }
 
-
-
-
 #footer {
-  width: 1000px;
+  width: 970px;
   height: 270px;
   margin-left:170px;
   margin-top: 25px;
@@ -253,7 +268,7 @@ input[type=submit] {
 
 .footSocial {
   margin-bottom: 10px;
-  color:red; 
+  color:grey; 
 }
 
 form{
@@ -274,19 +289,18 @@ input{
 
 #arrow {
   font-family: 'work-sans', sans-serif;
-  font-size: 28px;
-  line-height: 5.5;
-  width: 280px;
-  height: 171px;
-  margin-right: 500px;
-  background: red;
-  -webkit-clip-path: polygon(75% 27%, 100% 50%, 76% 74%, 0 74%, 0 44%, 0 27%);
-  clip-path: polygon(75% 27%, 100% 50%, 76% 74%, 0 74%, 0 44%, 0 27%);
-  position: absolute;
-  left: 30px;
-  top: 911px; 
-  padding-top: 20px;
-  border-bottom: 5px solid rgba(132,131,129,0.5);
+    font-size: 18px;
+    line-height: 8.5;
+    width: 175px;
+    height: 171px;
+    background-color: #B4292E;
+    -webkit-clip-path: polygon(75% 25%, 100% 50%, 74% 75%, 0 76%, 0 48%, 0 25%);
+    clip-path: polygon(75% 25%, 100% 50%, 74% 75%, 0 76%, 0 48%, 0 25%);
+    position: absolute;
+    left: 30px;
+    top: 911px;
+    padding-top: 20px;
+    border-bottom: 5px solid rgba(132,131,129,0.5);
 }
 
 
@@ -294,7 +308,6 @@ input{
   text-align:center;
   margin-left: 200px;
   height:400px;
-  width:1200px;
   margin-top: 30px;
   margin-bottom: 10px;
 }
@@ -315,9 +328,7 @@ input[type="radio"]{
   background:#000;
   border:5px solid #fff;
   color:#fff;
-  line-height:36px;
   width:300px;
-  text-align: center;
   font-family: 'work-sans', sans-serif;
   font-weight: bolder;
   font-size: 20px;
@@ -349,8 +360,22 @@ input[type="radio"]{
 
  .item:nth-child(4) {
     height: 420px;
-    margin: -215px 100px 0 10px;
+    margin: -215px 0px 0 10px;
     background-size: 1000px;
     background-position: 430px 430px;
     background-image: url(../images/sk8er-2.png);
  }
+
+#footSocial > .fa-twitter{
+  color:#9D9D9D;
+}
+
+.fa-youtube:before {
+    content: "\f167";
+    color: #9D9D9D;
+}
+
+.fa-twitter:before {
+    content: "\f099";
+    color: #9D9D9D;
+}
